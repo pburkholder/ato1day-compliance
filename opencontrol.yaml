@@ -1,0 +1,17 @@
+schema_version: "1.0.0" # 1.0.0 is the current opencontrol.yaml schema version
+name: ato1day
+metadata:
+  description: "ATO in a day: consume, via opencontrol dependencies, the SSP for various well-known components"
+  maintainers:
+    - pburkholder@pobox.com
+components: # A list of paths to components written in the opencontrol format for more information view: https://github.com/opencontrol/schemas
+dependencies:
+  systems:
+    - url: https://github.com/pburkholder/aws-compliance
+      revision: ato1day
+  certifications: # An optional list of certifications stored remotely
+    - url: https://github.com/opencontrol/FedRAMP-Certifications
+      revision: master
+  standards:   # An optional list of remote repos containing standards info that contain an opencontrol.yaml
+    - url: https://github.com/opencontrol/NIST-800-53-Standards
+      revision: master
