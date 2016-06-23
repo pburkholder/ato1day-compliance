@@ -17,3 +17,15 @@ The starting point are the standards from the Fredonia Institute of Standards, F
 The certification FredRAMP-low requires all the above controls except for XX-1
 
 The system we're building is `freedonia.fd` which is a 'Hello World' webpage for Freedonia.
+
+The minimim initial tree we need for a standalone SSP is:
+
+```
+.
+├── README.md
+├── certifications
+│   └── FredRAMP-low.yaml
+├── opencontrol.yaml
+└── standards
+    └── FRIST-800-53.yaml
+```
