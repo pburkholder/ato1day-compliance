@@ -5,7 +5,7 @@ metadata:
   maintainers:
     - pburkholder@pobox.com
 components:
-#  - ./AU_policy
+  - ./AU_policy
 standards:
   - ./standards/FRIST-800-53.yaml
 certifications:
