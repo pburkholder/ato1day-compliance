@@ -2,6 +2,7 @@ exports/
 *.env
 *.swp
 *__pycache__/
+_book/
 *.pyc
 tests/security-group-test-app/Godeps/_workspace/
 *.python-version
