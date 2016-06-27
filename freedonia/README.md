@@ -16,7 +16,11 @@ The starting point are the standards from the Freedonia Institute of Standards, 
 
 The certification FredRAMP-low requires all the above controls except for XX-1
 
-The system we're building is `freedonia.fd` which is a 'Hello World' webpage for Freedonia.
+The system we're building is `compliance.fd` which is this compliance information serving itself.  The components are:
+- AWS VPC for development and production
+- One node with nginx and gitbook to serve this content
+- A release process for this code.
+
 
 The minimum initial tree we need for a standalone SSP is:
 

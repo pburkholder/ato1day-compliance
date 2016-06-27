@@ -5,3 +5,16 @@ This project is an example of how you can re-use off-the-shelf cloud systems (AW
 
 As this project is in a state of flux, current documentation is in the
 [wiki](https://github.com/pburkholder/ato1day-compliance/wiki)
+
+Outline
+- freedonia-aws-compliance
+  - development Terraform one node with SSH to [ips] and port 80 to [ips]
+  - production: Terraform one node with SSH to [ips] and port 80 to 0.0.0.0
+  - provision w/ Chef
+
+- freedonia-compliance-compliance
+  - build exports
+  - push to S3
+  - publish on gitbook server
+
+  
