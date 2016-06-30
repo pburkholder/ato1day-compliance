@@ -3,7 +3,7 @@ ATO in a day
 
 This project/repo
 is the home project for the Freedonia SSP/ATO. The component projects are at
-[freedonia-compliance](https://github.com/pburkohlder/freedonia-compliance) and
+[freedonia-compliance](https://github.com/pburkholder/freedonia-compliance) and
 [freedonia-aws-compliance](https://github.com/pburkholder/freedonia-aws-compliance)
 
 Our overall project aims to exemplify how you can re-use off-the-shelf cloud systems (AWS, etc.) and open-source frameworks, and their accompanying NIST-800-53 controls as described by _opencontrol_ to rapidly generate a complete system security plan (SSP)
