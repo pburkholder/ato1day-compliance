@@ -17,4 +17,7 @@ Outline
   - push to S3
   - publish on gitbook server
 
-  
+ Audience
+ - FISMA newbies that need a getting started
+ - FISMA experts that need a more efficent way of doing work
+ - FISMA enforcers that need to trust the framwework we're presenting
